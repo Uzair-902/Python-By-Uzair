@@ -30,6 +30,7 @@ while True:
  		#main loop to create bulk folders
  		for i in range(qty+1):
  			os.mkdir(f"{name}, {i}")
+    print('Done! ')
  	else:
  		print('Error, Please Input Valid Prompt!')
 
