@@ -122,4 +122,7 @@ Proceed with caution! This AI has a personality disorder — it might be sarcast
 ''')
 while True:
 	inp = input(f'You:')
-	print(f'AI:',random.choice(annoying_responses))
+	if inp == '' or inp == ' ':
+		print()
+	else:
+		print(f'AI:',random.choice(annoying_responses))
