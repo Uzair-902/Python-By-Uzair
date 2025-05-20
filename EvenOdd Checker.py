@@ -4,9 +4,9 @@ colorama.init(autoreset=True)
 
 def evenodd(n):
 	if int(n) % 2 == 0:
-		print(Fore.GREEN + f'\nThe Number ({n}) is an Even Number.\n')
+		print(Fore.GREEN + f'\nThe Number {n} is an Even Number.\n')
 	elif int(n) % 2 != 0:
-		print(Fore.YELLOW + f'\nThe Number ({n}) is Odd Number.\n')
+		print(Fore.YELLOW + f'\nThe Number {n} is an Odd Number.\n')
 	else:
 		print(Fore.LIGHTRED_EX + '\nERROR: Please Enter a Valid Number.\n')
 		
